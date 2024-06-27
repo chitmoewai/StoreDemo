@@ -919,7 +919,7 @@ MonoBehaviour:
   m_TrackingStateInput:
     m_UseReference: 0
     m_Action:
-      m_Name: 
+      m_Name: Tracking State Input
       m_Type: 0
       m_ExpectedControlType: 
       m_Id: 3327f6d3-bf55-4939-84b0-a6de27325215
@@ -3276,11 +3276,11 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1372276084185089535, guid: e8090dbb771374144a023faf37db10eb, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1664420817280543926, guid: e8090dbb771374144a023faf37db10eb, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 1728414061110574811, guid: e8090dbb771374144a023faf37db10eb, type: 3}
       propertyPath: m_Name
@@ -3329,6 +3329,10 @@ PrefabInstance:
     - target: {fileID: 2425143004602813640, guid: e8090dbb771374144a023faf37db10eb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5475587119410392136, guid: e8090dbb771374144a023faf37db10eb, type: 3}
+      propertyPath: m_Layer
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3874,7 +3878,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -927199367670048503, guid: 6fc284651b326af42b181df013a65395, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8232,7 +8236,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!33 &8338078290138852995
 MeshFilter:
   m_ObjectHideFlags: 0
