@@ -3793,7 +3793,7 @@ GameObject:
   - component: {fileID: 222146846}
   m_Layer: 7
   m_Name: tablet 6
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -3825,8 +3825,8 @@ Rigidbody:
   m_GameObject: {fileID: 222146842}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -3842,7 +3842,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &222146845
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4027,6 +4027,7 @@ GameObject:
   - component: {fileID: 232631731}
   - component: {fileID: 232631733}
   - component: {fileID: 232631732}
+  - component: {fileID: 232631734}
   m_Layer: 0
   m_Name: shelf_Base_Expo
   m_TagString: Untagged
@@ -4100,6 +4101,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 232631730}
   m_Mesh: {fileID: -268808456240984312, guid: e01bb0595a0714877b82e04ba4eaa749, type: 3}
+--- !u!65 &232631734
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 232631730}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.110019416, y: 4.210926, z: 2.553488}
+  m_Center: {x: -0.04826587, y: 2.105463, z: 0.0000010423872}
 --- !u!1 &240236732
 GameObject:
   m_ObjectHideFlags: 0
@@ -4624,7 +4646,6 @@ GameObject:
   - component: {fileID: 285203973}
   - component: {fileID: 285203972}
   - component: {fileID: 285203971}
-  - component: {fileID: 285203970}
   m_Layer: 0
   m_Name: shelf_piece_exp027
   m_TagString: Untagged
@@ -4647,27 +4668,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 134215442}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &285203970
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 285203968}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1410893, y: 0.3416938, z: 2.4449353}
-  m_Center: {x: -0.6975447, y: 0.21015365, z: 0.00000035762795}
 --- !u!65 &285203971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4687,8 +4687,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 0.34, z: 2.5}
-  m_Center: {x: -0.6975447, y: 0.21015365, z: 0.00000035762795}
+  m_Size: {x: 1.1410892, y: 0.3416937, z: 2.444935}
+  m_Center: {x: -0.6975455, y: 0.21015313, z: 0.0000010728836}
 --- !u!23 &285203972
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6973,7 +6973,7 @@ GameObject:
   - component: {fileID: 455324599}
   m_Layer: 7
   m_Name: tablet 12
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -7005,8 +7005,8 @@ Rigidbody:
   m_GameObject: {fileID: 455324595}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -7022,7 +7022,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &455324598
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8528,7 +8528,7 @@ GameObject:
   - component: {fileID: 586522817}
   m_Layer: 7
   m_Name: tablet 8
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -8560,8 +8560,8 @@ Rigidbody:
   m_GameObject: {fileID: 586522813}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -8577,7 +8577,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &586522816
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9602,7 +9602,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1317167066}
   m_Father: {fileID: 1222957165}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &647544658
@@ -9753,7 +9754,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 503
+    m_Bits: 375
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -9776,6 +9777,7 @@ GameObject:
   - component: {fileID: 655157321}
   - component: {fileID: 655157323}
   - component: {fileID: 655157322}
+  - component: {fileID: 655157324}
   m_Layer: 0
   m_Name: Object046
   m_TagString: Untagged
@@ -9848,6 +9850,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 655157320}
   m_Mesh: {fileID: 5569566118741114203, guid: 4a98f1c288c204144bd4b637af48d33e, type: 3}
+--- !u!65 &655157324
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655157320}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.3053281, y: 113.79879, z: 238.46063}
+  m_Center: {x: 228.93582, y: 56.899395, z: 40.4914}
 --- !u!1 &663434504
 GameObject:
   m_ObjectHideFlags: 0
@@ -12043,7 +12066,7 @@ GameObject:
   - component: {fileID: 832853264}
   m_Layer: 7
   m_Name: tablet 1
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -12075,8 +12098,8 @@ Rigidbody:
   m_GameObject: {fileID: 832853260}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -12092,7 +12115,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &832853263
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12633,7 +12656,6 @@ GameObject:
   - component: {fileID: 863452160}
   - component: {fileID: 863452159}
   - component: {fileID: 863452158}
-  - component: {fileID: 863452157}
   m_Layer: 0
   m_Name: shelf_piece_exp024
   m_TagString: Untagged
@@ -12656,27 +12678,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 134215442}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!65 &863452157
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 863452155}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 1.1410893, y: 0.3416938, z: 2.4449353}
-  m_Center: {x: -0.6975447, y: 0.21015365, z: 0.00000035762795}
 --- !u!65 &863452158
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -12696,8 +12697,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.1410893, y: 0.34, z: 2.4449353}
-  m_Center: {x: -0.6975447, y: 0.21015365, z: 0.00000035762795}
+  m_Size: {x: 1.1410892, y: 0.3416937, z: 2.444935}
+  m_Center: {x: -0.6975455, y: 0.21015301, z: 0.0000013113022}
 --- !u!23 &863452159
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -15649,8 +15650,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0835098, y: 0.09310531, z: 2.5074728}
-  m_Center: {x: -0.7, y: 0.369, z: 0.0037372108}
+  m_Size: {x: 1.1410892, y: 0.3416937, z: 2.444935}
+  m_Center: {x: -0.6975455, y: 0.21015319, z: 0.0000010728836}
 --- !u!23 &1011511390
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -16071,7 +16072,7 @@ GameObject:
   - component: {fileID: 1027149277}
   m_Layer: 7
   m_Name: tablet 5
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -16103,8 +16104,8 @@ Rigidbody:
   m_GameObject: {fileID: 1027149273}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -16120,7 +16121,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &1027149276
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17033,7 +17034,7 @@ GameObject:
   - component: {fileID: 1083524092}
   m_Layer: 7
   m_Name: tablet 7
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -17065,8 +17066,8 @@ Rigidbody:
   m_GameObject: {fileID: 1083524088}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -17082,7 +17083,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &1083524091
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -17972,11 +17973,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6553337728546429283, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.687
+      value: 0.802
       objectReference: {fileID: 0}
     - target: {fileID: 6553337728546429283, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.648
+      value: -1.745
       objectReference: {fileID: 0}
     - target: {fileID: 6553337728546429283, guid: b787c76c5e9f27d49b0358e843b9edb8, type: 3}
       propertyPath: m_LocalRotation.w
@@ -19402,7 +19403,7 @@ GameObject:
   - component: {fileID: 1194947297}
   m_Layer: 7
   m_Name: tablet 4
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -19434,8 +19435,8 @@ Rigidbody:
   m_GameObject: {fileID: 1194947293}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -19451,7 +19452,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &1194947296
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -19906,8 +19907,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 647544657}
-  - {fileID: 282572360}
   - {fileID: 1666984560}
+  - {fileID: 282572360}
   m_Father: {fileID: 438200228}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1226191185
@@ -21040,6 +21041,89 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315536174}
   m_Mesh: {fileID: 1384598064818046468, guid: f43feab052041428c9da773499ee8364, type: 3}
+--- !u!1 &1317167065
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1317167066}
+  - component: {fileID: 1317167068}
+  m_Layer: 0
+  m_Name: Camera
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1317167066
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317167065}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 647544657}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &1317167068
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1317167065}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_Iso: 200
+  m_ShutterSpeed: 0.005
+  m_Aperture: 16
+  m_FocusDistance: 10
+  m_FocalLength: 50
+  m_BladeCount: 5
+  m_Curvature: {x: 2, y: 11}
+  m_BarrelClipping: 0.25
+  m_Anamorphism: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 128
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
 --- !u!1 &1317525694
 GameObject:
   m_ObjectHideFlags: 0
@@ -25473,8 +25557,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.0835098, y: 0.09310531, z: 2.5074728}
-  m_Center: {x: -0.7, y: 0.369, z: 0.0037372108}
+  m_Size: {x: 1.1410892, y: 0.3416937, z: 2.444935}
+  m_Center: {x: -0.6975455, y: 0.21015319, z: 0.0000013113022}
 --- !u!23 &1548770665
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26052,8 +26136,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.1410893, y: 0.35357448, z: 2.4449353}
-  m_Center: {x: -0.69754475, y: 0.21694115, z: 0.00000083434793}
+  m_Size: {x: 1.1410892, y: 0.3416937, z: 2.444935}
+  m_Center: {x: -0.6975455, y: 0.21015313, z: 0.0000017881393}
 --- !u!23 &1570173338
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -26285,7 +26369,7 @@ GameObject:
   - component: {fileID: 1596036962}
   m_Layer: 7
   m_Name: tablet 11
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -26317,8 +26401,8 @@ Rigidbody:
   m_GameObject: {fileID: 1596036958}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -26334,7 +26418,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &1596036961
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -26782,7 +26866,7 @@ GameObject:
   - component: {fileID: 1628281623}
   m_Layer: 7
   m_Name: tablet 2
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -26814,8 +26898,8 @@ Rigidbody:
   m_GameObject: {fileID: 1628281619}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -26831,7 +26915,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &1628281622
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -27563,7 +27647,7 @@ GameObject:
   - component: {fileID: 1665328690}
   m_Layer: 7
   m_Name: tablet 9
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -27595,8 +27679,8 @@ Rigidbody:
   m_GameObject: {fileID: 1665328686}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -27612,7 +27696,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &1665328689
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -28179,8 +28263,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1.1410893, y: 0.34, z: 2.4449353}
-  m_Center: {x: -0.6975447, y: 0.2101539, z: 0.00000035762795}
+  m_Size: {x: 1.1410892, y: 0.3416937, z: 2.444935}
+  m_Center: {x: -0.6975455, y: 0.21015313, z: 0.0000010728836}
 --- !u!23 &1703324363
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -28479,6 +28563,7 @@ GameObject:
   - component: {fileID: 1739448986}
   - component: {fileID: 1739448988}
   - component: {fileID: 1739448987}
+  - component: {fileID: 1739448989}
   m_Layer: 0
   m_Name: shelf_Base_Expo001
   m_TagString: Untagged
@@ -28552,6 +28637,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1739448985}
   m_Mesh: {fileID: 6839824997485782387, guid: e01bb0595a0714877b82e04ba4eaa749, type: 3}
+--- !u!65 &1739448989
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1739448985}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.12901512, y: 4.210926, z: 2.553488}
+  m_Center: {x: -0.05776411, y: 2.105463, z: 0.00000080183815}
 --- !u!1 &1749930153
 GameObject:
   m_ObjectHideFlags: 0
@@ -32322,7 +32428,7 @@ GameObject:
   - component: {fileID: 2022574050}
   m_Layer: 7
   m_Name: tablet 3
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -32354,8 +32460,8 @@ Rigidbody:
   m_GameObject: {fileID: 2022574046}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -32371,7 +32477,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &2022574049
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -33567,7 +33673,7 @@ GameObject:
   - component: {fileID: 2111675938}
   m_Layer: 7
   m_Name: tablet 10
-  m_TagString: Tablet
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
@@ -33599,8 +33705,8 @@ Rigidbody:
   m_GameObject: {fileID: 2111675934}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0.1
-  m_AngularDrag: 0
+  m_Drag: 0
+  m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
   m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -33616,7 +33722,7 @@ Rigidbody:
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!65 &2111675937
 BoxCollider:
   m_ObjectHideFlags: 0
