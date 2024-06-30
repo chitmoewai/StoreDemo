@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 3
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: c92b623822bd1c54a9aeb428a80460ba, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 9e0728170ffba4f79a52a0c27cd9a0e3, type: 2}
   m_HaloStrength: 0.688
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -393,6 +393,100 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 20968566}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &26122033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 26122034}
+  - component: {fileID: 26122035}
+  m_Layer: 0
+  m_Name: Point Light (3)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &26122034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26122033}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -17.83, y: 5.72, z: 0.48}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 159873916}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &26122035
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 26122033}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 4
+  m_Range: 2
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
 --- !u!1 &27473315
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,7 +588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &29638598
 Transform:
   m_ObjectHideFlags: 0
@@ -912,6 +1006,100 @@ Light:
   m_Color: {r: 0.9150943, g: 0.8450006, b: 0.15107687, a: 1}
   m_Intensity: 1
   m_Range: 0.5
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 1
+    m_Bias: 0.05
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 4
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_UseViewFrustumForShadowCasterCull: 1
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!1 &67121448
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 67121449}
+  - component: {fileID: 67121450}
+  m_Layer: 0
+  m_Name: Point Light (4)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &67121449
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67121448}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -11.49, y: 5.72, z: -2.49}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 159873916}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!108 &67121450
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 67121448}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 2
+  m_Shape: 0
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Intensity: 4
+  m_Range: 2
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -2483,7 +2671,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 138255401}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2645,9 +2834,9 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 32
   m_CollisionDetection: 1
 --- !u!65 &138255401
 BoxCollider:
@@ -2664,7 +2853,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2679,8 +2868,8 @@ Transform:
   m_GameObject: {fileID: 138255398}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4454455, y: 0.203, z: -2.18}
-  m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
+  m_LocalPosition: {x: 5.422, y: 0.203, z: -2.18}
+  m_LocalScale: {x: 0.016, y: 0.016, z: 0.016}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1063192939}
@@ -3186,6 +3375,8 @@ Transform:
   - {fileID: 476886171}
   - {fileID: 1374304173}
   - {fileID: 2067889852}
+  - {fileID: 26122034}
+  - {fileID: 67121449}
   m_Father: {fileID: 1362458576}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &159947862
@@ -4803,7 +4994,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282572359}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 16e5c93afdbfa4417a540599fbbf0405, type: 3}
   m_Name: 
@@ -5033,7 +5224,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 324971535}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -5195,7 +5387,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
@@ -5214,12 +5406,12 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 13.482296, y: 0.6881045, z: 19.512384}
-  m_Center: {x: 0.20311801, y: 0.15596414, z: 5.53213}
+  m_Size: {x: 13.482297, y: 2.5760884, z: 19.512384}
+  m_Center: {x: 0.20311773, y: -0.7880265, z: 5.53213}
 --- !u!4 &324971536
 Transform:
   m_ObjectHideFlags: 0
@@ -5229,8 +5421,8 @@ Transform:
   m_GameObject: {fileID: 324971532}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4454455, y: 0.203, z: -1.01}
-  m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
+  m_LocalPosition: {x: 5.422, y: 0.203, z: -1.01}
+  m_LocalScale: {x: 0.016, y: 0.016, z: 0.016}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1902824426}
@@ -6537,7 +6729,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 389162759}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -6699,7 +6892,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
@@ -6733,8 +6926,8 @@ Transform:
   m_GameObject: {fileID: 389162756}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4454455, y: 0.55, z: -2.155}
-  m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
+  m_LocalPosition: {x: 5.427, y: 0.55, z: -2.155}
+  m_LocalScale: {x: 0.018, y: 0.018, z: 0.018}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 803724391}
@@ -6850,7 +7043,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &399308840
 Transform:
   m_ObjectHideFlags: 0
@@ -6934,7 +7127,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &410089433
 Transform:
   m_ObjectHideFlags: 0
@@ -8660,7 +8853,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &576390431
 Transform:
   m_ObjectHideFlags: 0
@@ -8978,7 +9171,7 @@ Transform:
   m_GameObject: {fileID: 588317531}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.09352271, y: 0.0035552979, z: -0.04953554}
+  m_LocalPosition: {x: 0.09352271, y: 0.015, z: -0.05049}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10952,7 +11145,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 703317148}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -11114,7 +11308,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
@@ -11148,8 +11342,8 @@ Transform:
   m_GameObject: {fileID: 703317145}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4454455, y: 0.55, z: -1.587}
-  m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
+  m_LocalPosition: {x: 5.427, y: 0.55, z: -1.587}
+  m_LocalScale: {x: 0.018, y: 0.018, z: 0.018}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 84914449}
@@ -12414,7 +12608,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 808682052}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -12576,7 +12771,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
@@ -12610,8 +12805,8 @@ Transform:
   m_GameObject: {fileID: 808682049}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4461, y: 0.922, z: -2.1}
-  m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
+  m_LocalPosition: {x: 5.421, y: 0.922, z: -2.1}
+  m_LocalScale: {x: 0.018, y: 0.018, z: 0.018}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1475495898}
@@ -13428,7 +13623,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 886796559}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -13590,7 +13786,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
@@ -13613,8 +13809,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 13.482296, y: 0.6881045, z: 19.512384}
-  m_Center: {x: 0.20311801, y: 0.15596414, z: 5.53213}
+  m_Size: {x: 13.482297, y: 2.648219, z: 19.512384}
+  m_Center: {x: 0.20311774, y: 0.12666693, z: 5.53213}
 --- !u!4 &886796560
 Transform:
   m_ObjectHideFlags: 0
@@ -13624,7 +13820,7 @@ Transform:
   m_GameObject: {fileID: 886796556}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4454455, y: 1.316, z: -2.18}
+  m_LocalPosition: {x: 5.425, y: 1.316, z: -2.18}
   m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -14078,7 +14274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &928438029
 Transform:
   m_ObjectHideFlags: 0
@@ -14423,7 +14619,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &948876107
 Transform:
   m_ObjectHideFlags: 0
@@ -15086,7 +15282,7 @@ Transform:
   m_GameObject: {fileID: 950283439}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.071820155, y: 0.0035552979, z: -0.04953554}
+  m_LocalPosition: {x: 0.071820155, y: 0.013, z: -0.05032}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -17829,7 +18025,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 1066793326}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -17991,7 +18188,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
@@ -18014,8 +18211,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 13.482296, y: 0.6881045, z: 19.512384}
-  m_Center: {x: 0.20311801, y: 0.15596414, z: 5.53213}
+  m_Size: {x: 13.482297, y: 3.629407, z: 19.512384}
+  m_Center: {x: 0.20311773, y: 0.5885247, z: 5.53213}
 --- !u!4 &1066793327
 Transform:
   m_ObjectHideFlags: 0
@@ -18025,7 +18222,7 @@ Transform:
   m_GameObject: {fileID: 1066793323}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4454455, y: 1.316, z: -1.607}
+  m_LocalPosition: {x: 5.425, y: 1.316, z: -1.607}
   m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -18715,7 +18912,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 1128713926}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -18877,9 +19075,9 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 16
   m_CollisionDetection: 1
 --- !u!65 &1128713926
 BoxCollider:
@@ -18900,8 +19098,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 13.482296, y: 0.6881045, z: 19.512384}
-  m_Center: {x: 0.20311801, y: 0.15596414, z: 5.53213}
+  m_Size: {x: 13.482297, y: 3.0375452, z: 19.512384}
+  m_Center: {x: 0.20311774, y: 0.7919556, z: 5.53213}
 --- !u!4 &1128713927
 Transform:
   m_ObjectHideFlags: 0
@@ -18911,7 +19109,7 @@ Transform:
   m_GameObject: {fileID: 1128713923}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4454455, y: 1.316, z: -1.01}
+  m_LocalPosition: {x: 5.425, y: 1.316, z: -1.01}
   m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -20598,8 +20796,8 @@ Transform:
   m_GameObject: {fileID: 1194947293}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4461, y: 0.922, z: -0.94796}
-  m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
+  m_LocalPosition: {x: 5.421, y: 0.922, z: -0.94796}
+  m_LocalScale: {x: 0.018, y: 0.018, z: 0.018}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 849077907}
@@ -20630,7 +20828,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
@@ -20668,7 +20866,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 1194947296}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -22374,8 +22573,8 @@ Transform:
   m_GameObject: {fileID: 1315324482}
   serializedVersion: 2
   m_LocalRotation: {x: -0.636078, y: -0.7716244, z: 0.0004989687, w: -0.0006052975}
-  m_LocalPosition: {x: -4.89, y: -3.33, z: 5.22}
-  m_LocalScale: {x: 5.6349196, y: 2.2447844, z: 18.2535}
+  m_LocalPosition: {x: -5.068, y: -2.416, z: 5.22}
+  m_LocalScale: {x: 3.7810311, y: 2.2447844, z: 18.2535}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 324971536}
@@ -23247,7 +23446,7 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -25399,7 +25598,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 1434985928}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -25561,7 +25761,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
@@ -25595,8 +25795,8 @@ Transform:
   m_GameObject: {fileID: 1434985925}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4461, y: 0.922, z: -1.562}
-  m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
+  m_LocalPosition: {x: 5.421, y: 0.922, z: -1.562}
+  m_LocalScale: {x: 0.018, y: 0.018, z: 0.018}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2123695173}
@@ -26444,7 +26644,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1526332453
 Transform:
   m_ObjectHideFlags: 0
@@ -26760,7 +26960,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 1533505038}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -26922,9 +27123,9 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 16
   m_CollisionDetection: 1
 --- !u!65 &1533505038
 BoxCollider:
@@ -26941,7 +27142,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -26956,8 +27157,8 @@ Transform:
   m_GameObject: {fileID: 1533505035}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4454455, y: 0.203, z: -1.607}
-  m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
+  m_LocalPosition: {x: 5.422, y: 0.203, z: -1.607}
+  m_LocalScale: {x: 0.016, y: 0.016, z: 0.016}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1932104533}
@@ -27494,7 +27695,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 64
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1559255266
 Transform:
   m_ObjectHideFlags: 0
@@ -31980,7 +32181,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_InteractionManager: {fileID: 1529533044}
-  m_Colliders: []
+  m_Colliders:
+  - {fileID: 1916236327}
   m_InteractionLayerMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -32142,7 +32344,7 @@ Rigidbody:
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 1
@@ -32176,8 +32378,8 @@ Transform:
   m_GameObject: {fileID: 1916236324}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.6360782, w: 0.7716246}
-  m_LocalPosition: {x: 5.4454455, y: 0.55, z: -0.937}
-  m_LocalScale: {x: 0.019, y: 0.019, z: 0.019}
+  m_LocalPosition: {x: 5.427, y: 0.55, z: -0.937}
+  m_LocalScale: {x: 0.018, y: 0.018, z: 0.018}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1527992449}
